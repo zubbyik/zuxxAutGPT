@@ -1,0 +1,66 @@
+.
+├── CONTRIBUTING.md
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── autogpt
+│   ├── __init__.py
+│   ├── __main__.py
+│   ├── __pycache__
+│   ├── agent
+│   ├── app.py
+│   ├── args.py
+│   ├── chat.py
+│   ├── commands
+│   ├── config
+│   ├── data_ingestion.py
+│   ├── js
+│   ├── json_fixes
+│   ├── llm_utils.py
+│   ├── logs.py
+│   ├── memory
+│   ├── permanent_memory
+│   ├── processing
+│   ├── prompt.py
+│   ├── promptgenerator.py
+│   ├── setup.py
+│   ├── speech
+│   ├── spinner.py
+│   ├── token_counter.py
+│   └── utils.py
+├── azure.yaml.template
+├── docker-compose.yml
+├── docs
+│   └── imgs
+├── main.py
+├── outputs
+│   ├── guest_post_email.txt
+│   ├── how_to_save_money_on_energy_bills.txt
+│   ├── logs
+│   ├── post1_output.txt
+│   └── post2_output.txt
+├── poetry.lock
+├── pyproject.toml
+├── requirements-docker.txt
+├── requirements.txt
+├── run.bat
+├── run_continuous.bat
+├── scripts
+│   └── check_requirements.py
+├── tests
+│   ├── __init__.py
+│   ├── browse_tests.py
+│   ├── context.py
+│   ├── integration
+│   ├── local_cache_test.py
+│   ├── milvus_memory_test.py
+│   ├── smoke_test.py
+│   ├── test_config.py
+│   ├── test_json_parser.py
+│   ├── test_prompt_generator.py
+│   ├── test_token_counter.py
+│   └── unit
+├── tests.py
+└── tree.txt
+
+19 directories, 44 files
